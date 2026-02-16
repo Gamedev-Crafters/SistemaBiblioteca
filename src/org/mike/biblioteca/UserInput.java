@@ -3,6 +3,14 @@ package org.mike.biblioteca;
 import java.util.Scanner;
 
 /**
+ * TODO Mentoría
+ * Me siento bastante orgulloso con la idea de implementar una clase estática
+ * como herramienta para gestionar el input. Si bien creo que aquí lo hice bien,
+ * suelo pensar que sí me siento muy confíado con algo en concreto, generalmente
+ * estoy cometiendo un error que no veo.
+ */
+
+/**
  * Clase estática con distintas funcionalidades para gestionar el input del usuario.
  */
 public class UserInput {

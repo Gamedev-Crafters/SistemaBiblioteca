@@ -6,6 +6,11 @@ package org.mike.biblioteca;
 public class MainView {
 	
 	/**
+	 * TODO Mentoría
+	 * ¿Unificar el display con el retorno de la opción ha sido buena decisión?
+	 */
+	
+	/**
 	 * Muestra el menú principla, devuelve la opción elegida.
 	 * @return int La opción elegida por el usuaior
 	 */

@@ -4,6 +4,12 @@ package org.mike.biblioteca;
  * El controlador troncal de la aplicación, instancia el resto de controladores, modelos y vistas.
  */
 public class MainController {
+	/**
+	 * TODO Mentoría
+	 * ¿Es esta estructura la óptima? ¿Existe una estructura más robsuta y fácil
+	 * de mantener?
+	 * ¿Es la inyección de dependencias adecuada para este caso?
+	 */
 	
 	private MainView mainView = new MainView();
 	

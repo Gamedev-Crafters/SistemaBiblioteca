@@ -1,5 +1,11 @@
 package org.mike.biblioteca;
 
+/*
+ * TODO Mentoría.
+ * ¿Es esta clase redundante? ¿Podría introducir el main() estático directamente
+ * en el mainController? ¿O es mejor tenerlo todo por separado?
+ */
+
 /**
  * Inicio del programa.
  */
