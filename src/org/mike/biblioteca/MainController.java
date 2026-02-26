@@ -9,6 +9,7 @@ public class MainController {
 	 * ¿Es esta estructura la óptima? ¿Existe una estructura más robsuta y fácil
 	 * de mantener?
 	 * ¿Es la inyección de dependencias adecuada para este caso?
+	 	--> Lo mencionaremos más adelante en detalle, pero se puede comentar en sesión alternativas a cómo se están instanciando las clases aquí.
 	 */
 	
 	private MainView mainView = new MainView();
