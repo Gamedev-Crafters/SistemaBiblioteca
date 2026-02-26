@@ -29,14 +29,16 @@ public class MainController {
 	public MainController() {
 		
 	}
-	
+
+	// Se ve un patrón en cómo se leen los tipos de respuesta, podemos comentar alternativas.
 	public void start() {
 		boolean userReturn = false;
 		
 		do {
 			// Pregunta al usuario, a través de la vista, la opción
 			int userAnswer = mainView.displayMainMenu();
-			
+
+			// Hablar de Connascense: Tanto la vista como este controlador saben que el número 1 es el userController, puede llevar a imprevistos en el futuro.
 			switch(userAnswer) {
 			// Gestión de Usuarios
 			case 1:
