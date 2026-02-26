@@ -15,6 +15,7 @@ public class MainView {
 	 * @return int La opción elegida por el usuaior
 	 */
 	public int displayMainMenu() {
+		// Hablar de Connascense también: Si esta clase conoce que "1." es "Gestión de Usuarios", deberíamos mover aquí la responsabilidad de devolver ese controlador, para evitar acoplamiento implícito. 
 		System.out.println("\n=== Gestor de Biblioteca ===");
 		System.out.println("1. Gestión de Usuarios");
 		System.out.println("2. Gestión de Libros");
