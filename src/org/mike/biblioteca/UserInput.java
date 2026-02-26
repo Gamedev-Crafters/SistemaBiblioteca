@@ -14,6 +14,7 @@ import java.util.Scanner;
  * Clase estática con distintas funcionalidades para gestionar el input del usuario.
  */
 public class UserInput {
+	// Para sesión: hablar sobre uso de estáticos, y la necesidad de usarlos.
 	static private Scanner scanner = new Scanner(System.in);
 	
 	/**
